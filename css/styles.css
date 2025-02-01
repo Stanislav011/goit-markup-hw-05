@@ -711,10 +711,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
+margin-bottom: 16px;
 }
 
 
 .footer-lastform {
+    display: flex;
     gap: 24px;
 }
 
@@ -740,6 +742,7 @@ color: #ffffff;
 
 .footer-btn {
     font-family: "Roboto", sans-serif;
+    display: flex;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -759,7 +762,7 @@ color: #ffffff;
 
 
 .footer-svg {
-    
+    margin-left: 16px;
 }
 
 .footer-svg:hover {
