@@ -636,8 +636,13 @@ img {
 
 
 .input-text:focus{
-    fill: #4D5AE5;    
+    border-color: #4D5AE5; 
 }
+
+.input-text:focus + .svg-q {
+    fill: #4D5AE5;
+}
+
 
 
 .modal-overlay.is-open {
@@ -696,20 +701,12 @@ img {
 .footer-modal-btn:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .svg-x {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-
-.svg-x:hover {
-    fill: #ffffff;
-}
-
-.svg-x:focus {
-    fill: #ffffff;
-}
-
 
 .footer-text {
 font-weight: 500;
