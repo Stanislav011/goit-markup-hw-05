@@ -831,7 +831,7 @@ color: #ffffff;
     fill: transparent;
 }
 
-.checkbox-privacy[type="checkbox"]:checked + .span-last svg {
+.checkbox-privacy:checked + .label-check .span-last {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
