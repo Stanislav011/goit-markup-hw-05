@@ -831,7 +831,7 @@ color: #ffffff;
     fill: transparent;
 }
 
-input[type="checked"]:checked + .span-last{
+.checkbox-privacy[type="checked"]:checked + .span-last{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
