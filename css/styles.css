@@ -516,7 +516,7 @@ img {
   background-color: #31d0aa;
 }
 
-.modal-overlay .is-open {
+.modal-overlay {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
   top: 0;
