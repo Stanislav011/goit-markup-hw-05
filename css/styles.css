@@ -654,12 +654,8 @@ img {
 
 }
 
+.footer-modal-btn:hover,
 .footer-modal-btn:focus {
-  background-color: #404bbf;
-  border: none;
-}
-
-.footer-modal-btn:hover {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
